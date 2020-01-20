@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A6073A0223CF7A0A00B88536 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6073A0123CF7A0A00B88536 /* FollowerListVC.swift */; };
+		A60FAB5823D5DFC200936674 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60FAB5723D5DFC200936674 /* ErrorMessage.swift */; };
 		A63A177523D0D02500982490 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A177423D0D02500982490 /* GFTitleLabel.swift */; };
 		A63A177723D0D18600982490 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A177623D0D18600982490 /* GFBodyLabel.swift */; };
 		A63A177923D0D25900982490 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A177823D0D25900982490 /* GFAlertVC.swift */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		A6073A0123CF7A0A00B88536 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
+		A60FAB5723D5DFC200936674 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		A63A177423D0D02500982490 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		A63A177623D0D18600982490 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		A63A177823D0D25900982490 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
@@ -94,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A60FAB5623D5DFB100936674 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A60FAB5723D5DFC200936674 /* ErrorMessage.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		A64C037A23D3F006005A7649 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +184,7 @@
 		A6C7668023C0445900BD5F95 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				A60FAB5623D5DFB100936674 /* Utilities */,
 				A6AB60D423D45AC100F6BEC7 /* Managers */,
 				A64C037E23D3F4BA005A7649 /* Models */,
 				A64C037A23D3F006005A7649 /* Screens */,
@@ -345,6 +356,7 @@
 				A64C038223D3F5A6005A7649 /* User.swift in Sources */,
 				A64C038023D3F4C6005A7649 /* Follower.swift in Sources */,
 				A6C7668223C0445900BD5F95 /* AppDelegate.swift in Sources */,
+				A60FAB5823D5DFC200936674 /* ErrorMessage.swift in Sources */,
 				A63A177723D0D18600982490 /* GFBodyLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
