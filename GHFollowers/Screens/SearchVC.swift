@@ -16,7 +16,6 @@ class SearchVC: UIViewController {
 
     var isUsernameEntered: Bool { return usernameTextField.text?.isEmpty == false }
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -73,6 +72,8 @@ class SearchVC: UIViewController {
             usernameTextField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50),
             usernameTextField.heightAnchor.constraint(equalToConstant: 50)
         ])
+
+        usernameTextField.text = "SAllen0400"
     }
 
     func configureCallToActionButton() {
